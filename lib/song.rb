@@ -25,7 +25,6 @@ class Song
     # song = elements[1]
     # newsong = Song.new(song)
     # newsong.artist_name = artist
-
     # newsong.save
     # # newsong.artist = Artist.create(artist)
     # # newsong.artist.add_song(song)
