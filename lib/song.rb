@@ -30,5 +30,9 @@ class Song
     # # newsong.artist = Artist.create(artist)
     # # newsong.artist.add_song(song)
     # newsong 
+    artist_name, song_name = filename.chomp(".mp3").split(" - ")
+    song = self.new(song_name)
+    song.artist = Artist.find_or_create_by_name(artist_name)
+    song.save
   end
 end
