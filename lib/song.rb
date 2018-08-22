@@ -32,6 +32,3 @@ class Song
     newsong 
   end
 end
-
-
-
